@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @font-face {
     font-family: 'Larsseit';
-    src: url('./assets/larsseit/Larsseit-Bold.otf');
+    src: url('./assets/larsseit/Larsseit.otf');
     font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('./assets/larsseit/Larsseit-Bold.otf');
+    font-weight: 700;
 }
 body {
     margin: 0;
