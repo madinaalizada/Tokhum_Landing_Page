@@ -1,12 +1,10 @@
 .firstpage-container {
     margin: 64px 0 0;
     padding: 0;
-    width: 1032px;
     .first-part {
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 1032px;
         justify-content: space-between;
         .exploaring-div {
             display: flex;
@@ -75,7 +73,6 @@
 
     .headers-container {
         padding: 0px;
-        width: 1032px;
         margin-bottom: 80px;
         height: 96px;
         display: flex;

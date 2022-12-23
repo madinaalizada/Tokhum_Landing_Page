@@ -1,0 +1,22 @@
+.easylevel-container {
+    margin-top: 80px;
+    padding: 80px 204px;
+    background: #F7F7F7;
+    position: relative;
+    top: 88px;
+
+    .easylevel-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .easy-directions-logo {
+            width: 104px;
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}

@@ -21,25 +21,53 @@ const TokhumTop = () => {
             <div className="top20-image-item">
                 <img src={image1} alt="" />
                 <div className="item-content">
-
+                    <div className="item-name">Rapunzel</div>
+                    <div className="item-cost">132.00 ₼</div>
+                    <div className="item-sizes">
+                        <div className="item-size">70-80cm</div>
+                        <div className="item-size">90-100cm</div>
+                        <div className="item-size">+1</div>
+                    </div>
+                    <button>Add to basket</button>
                 </div>
             </div>
             <div className="top20-image-item">
                 <img src={image2} alt="" />
                 <div className="item-content">
-                    
+                    <div className="item-name">Rapunzel</div>
+                    <div className="item-cost">132.00 ₼</div>
+                    <div className="item-sizes">
+                        <div className="item-size">70-80cm</div>
+                        <div className="item-size">90-100cm</div>
+                        <div className="item-size">+1</div>
+                    </div>
+                    <button>Add to basket</button>
                 </div>
             </div>
             <div className="top20-image-item">
                 <img src={image3} alt="" />
                 <div className="item-content">
-                    
+                    <div className="item-name">Rapunzel</div>
+                    <div className="item-cost">132.00 ₼</div>
+                    <div className="item-sizes">
+                        <div className="item-size">70-80cm</div>
+                        <div className="item-size">90-100cm</div>
+                        <div className="item-size">+1</div>
+                    </div>
+                    <button>Add to basket</button>
                 </div>
             </div>
             <div className="top20-image-item">
                 <img src={image4} alt="" />
                 <div className="item-content">
-                    
+                    <div className="item-name">Rapunzel</div>
+                    <div className="item-cost">132.00 ₼</div>
+                    <div className="item-sizes">
+                        <div className="item-size">70-80cm</div>
+                        <div className="item-size">90-100cm</div>
+                        <div className="item-size">+1</div>
+                    </div>
+                    <button>Add to basket</button>
                 </div>
             </div>
         </div>
