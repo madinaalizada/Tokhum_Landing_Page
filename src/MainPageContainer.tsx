@@ -7,6 +7,7 @@ import WhatCanBuy from './Components/WhatCanBuy'
 import './MainPageContainer.scss';
 import OfficePlants from './Components/OfficePlants'
 import Subscribe from './Components/Subscribe'
+import Footer from './Components/Footer'
 
 const MainPageContainer = () => {
   return (
@@ -21,6 +22,7 @@ const MainPageContainer = () => {
       <WhatCanBuy/>
       <OfficePlants/>
       <Subscribe/>
+      <Footer/>
     </div>
   )
 }

@@ -1,0 +1,18 @@
+.footer-container {
+    position: relative;
+    top: 88px;
+    padding: 80px 204px 24px;
+    .header {
+        img {
+            width: 240px;
+            height: 53px;
+        }
+        select {
+            width: fit-content;
+            padding: 3px 5px;
+            option {
+                background-image: url("usa.png");
+            }
+        }
+    }
+}
