@@ -1,0 +1,18 @@
+.what-can-buy {
+    position: relative;
+    top: 88px;
+    padding: 80px 204px;
+    img {
+        margin-bottom: 56px;
+    }
+    .options-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        img {
+            margin-top: 24px;
+            cursor: pointer;
+        }
+    }
+}

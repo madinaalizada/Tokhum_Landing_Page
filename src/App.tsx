@@ -1,22 +1,13 @@
-import { useState } from 'react'
 import './App.scss'
-import Header from './Components/Header'
-import FirstPage from './Components/FirstPage'
-import TokhumTop from './Components/TokhumTop'
-import Moduls from './Components/Moduls'
-import EasyLevel from './Components/EasyLevel'
+import { Routes } from 'react-router-dom'
+import { Route } from 'react-router'
+import MainPageContainer from './MainPageContainer'
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <div className="main-pages-container">
-        <FirstPage/>
-        <TokhumTop/>
-        <Moduls/>
-      </div>
-      <EasyLevel/>
-    </div>
+    <Routes>
+      <Route path='*' element={<MainPageContainer/>}/>
+    </Routes>
   )
 }
 
