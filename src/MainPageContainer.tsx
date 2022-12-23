@@ -5,6 +5,7 @@ import Moduls from './Components/Moduls'
 import EasyLevel from './Components/EasyLevel'
 import WhatCanBuy from './Components/WhatCanBuy'
 import './MainPageContainer.scss';
+import OfficePlants from './Components/OfficePlants'
 
 const MainPageContainer = () => {
   return (
@@ -17,6 +18,7 @@ const MainPageContainer = () => {
       </div>
       <EasyLevel/>
       <WhatCanBuy/>
+      <OfficePlants/>
     </div>
   )
 }
